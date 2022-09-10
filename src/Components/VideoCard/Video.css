@@ -1,0 +1,45 @@
+.vidy {
+display: flex;;
+ height: 50vh;
+ 
+ place-items: center;
+ width:100%;
+ flex-direction: column;
+ 
+
+}
+
+
+
+.vidy .swiper{
+    overflow: visible!important;
+   left:30px;
+  
+}
+.swipere >video{
+    width:25rem;
+   left:30rem;
+    
+}
+
+
+
+.vidy span:nth-of-type(1){
+  
+    color:black;
+    font-size: 2rem;
+    font-weight:bolder;
+
+}
+.vidy span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 1rem;
+    font-weight:500;
+
+}
+@media screen and (max-width: 600px){
+    .vidy .swiper{
+        width:10rem;
+        height:5rem
+    }
+}
